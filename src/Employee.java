@@ -5,7 +5,6 @@ class Employee {
     private String name;
     private List<Job> jobhistory;
 
-    // Constructor
     public Employee(String name) {
         this.name = name;
         this.jobhistory = new ArrayList<>();
@@ -26,12 +25,14 @@ class Employee {
         }
     }
 
-    // Calculate total experience
     public int calculateTotalExperience() {
         int totalExperience = 0;
         for (Job job : jobhistory) {
             totalExperience += job.calculateJobDuration();
         }
         return totalExperience;
+    }
+    public String getName() {
+        return name;
     }
 }
