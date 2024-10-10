@@ -3,7 +3,6 @@ class PartTimeJob extends Job {
     private double hourlywage;
     private int hoursperweek;
 
-    // Constructor
     public PartTimeJob(String companyname, String position, String startdate, String enddate, double hourlywage, int hoursperweek) {
         super(companyname, position, startdate, enddate); // Call to parent class constructor
         this.hourlywage = hourlywage;

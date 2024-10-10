@@ -3,7 +3,6 @@ class ContractJob extends Job {
     private double hourlyrate;
     private int totalhoursworked;
 
-    // Constructor
     public ContractJob(String companyname, String position, String startdate, String enddate, double hourlywage, int hoursperweek) {
         super(companyname, position, startdate, enddate); // Call to parent class constructor
         this.hourlyrate = hourlyrate;

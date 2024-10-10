@@ -22,7 +22,7 @@ public class Main {
 //Calculation of the total job experience
         System.out.println("Total Experience: " + employee.calculateTotalExperience() + " months");
 
-//Displaying the additional methods (I couldnt really think of anything else so i followed your example, I hope you dont mind!)
+//Displaying the additional methods   (I couldnt really think of anything else so i followed your example, I hope you dont mind!)
        
 System.out.println("Full-Time Job Salary: $" + fulltime.calculateSalary());
         System.out.println("Full-Time Job Work-Life Balance: " + fulltime.evaluateWorkLifeBalance());
